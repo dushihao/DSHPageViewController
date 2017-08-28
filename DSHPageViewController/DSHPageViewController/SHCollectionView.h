@@ -1,0 +1,17 @@
+//
+//  SHCollectionView.h
+//  DSHPageViewController
+//
+//  Created by shihao on 2017/8/23.
+//  Copyright © 2017年 shihao. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SHCollectionView : UICollectionView
+
+@property (nonatomic) UICollectionViewFlowLayout *flowLayout;
+
+- (instancetype)initWithReuseIdentifier:(NSString *)identifier;
+
+@end
